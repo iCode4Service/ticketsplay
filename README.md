@@ -1,4 +1,4 @@
-# https://45.32.184.209 PHP API Wrapper.
+# Ticketsplay PHP API Wrapper.
 ## Requirements
 It's recommended to use a newer version of PHP. This library was written in a PHP v7.2.8-1+ environment. The minimum version we've tested the code against is PHP v 5.5+. Our PHP version compatibility test used a combination of [PHP icodeforservice](https://github.com/iCode4Service/ticketsplay) 
 
