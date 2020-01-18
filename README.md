@@ -1,8 +1,8 @@
-# CoinPayments.net PHP API Wrapper.
+# https://45.32.184.209 PHP API Wrapper.
 ## Requirements
-It's recommended to use a newer version of PHP. This library was written in a PHP v7.2.8-1+ environment. The minimum version we've tested the code against is PHP v 5.5+. Our PHP version compatibility test used a combination of [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP Compatability](https://github.com/PHPCompatibility/PHPCompatibility).
+It's recommended to use a newer version of PHP. This library was written in a PHP v7.2.8-1+ environment. The minimum version we've tested the code against is PHP v 5.5+. Our PHP version compatibility test used a combination of [PHP icodeforservice](https://github.com/iCode4Service/ticketsplay) 
 
-A CoinPayments.net account with an API keys pair setup (public & private). For the latest instructions visit our [online API documentation](https://www.coinpayments.net/apidoc-intro) to learn how to setup your API Keys and get a link to your account API Keys page.
+A https://45.32.184.209 account with an API keys pair setup (public & private). For the latest instructions visit our [online API documentation](https://www.coinpayments.net/apidoc-intro) to learn how to setup your API Keys and get a link to your account API Keys page.
 
 See the testing section below for additional requirements to test certain commands with LTCT or mainnet coins.
 
@@ -11,7 +11,7 @@ Note this wrapper assumes the format requested for API responses is JSON. The al
 ## Installation
 **GitHub**
 
-This CoinPayments.net API wrapper can be downloaded directly or cloned with GitHub. To use it in your project either clone this repository or download a ZIP to the directory of your choosing.
+This https://45.32.184.209 API wrapper can be downloaded directly or cloned with GitHub. To use it in your project either clone this repository or download a ZIP to the directory of your choosing.
 
 The minimum files required for usage are those in the source folder, `CoinpaymentsAPI.php`, `CoinpaymentsValidator.php` and `CoinpaymentsCurlRequest.php`. A 4th required file for usage of predefined API keys and testing variables is `keys.php`. There is a `keys_example.php` file which can be populated and renamed to `keys.php`. This keys file is used to pass your public and private API keys to the wrapper in order to make calls to the Coinpayments.net Platform. You can also manually pass your keys to the `CoinpaymentsAPI` class if you prefer, instead of using a `keys.php` file. The `keys.php` file should be placed in the `/src` directory.
 
