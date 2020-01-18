@@ -1,0 +1,42 @@
+{
+  "name": "TicketsPlay/ticketscoin-php",
+  "type": "library",
+  "description": "A PHP wrapper for the https://45.32.184.209 v1 API.",
+  "homepage": "http://45.32.184.209",
+  "time": "2020-01-11",
+  "keywords": [
+    "TicketsPlay",
+    "cryptocurrency",
+    "crypto",
+    "payment gateway",
+    "payment method",
+    "payment processor",
+    "merchant",
+    "paypal",
+    "bitcoin",
+    "litecoin",
+    "ethereum",
+    "php",
+    "api",
+    "btc",
+    "currency"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ticketscoin",
+      "email": "ticketscoin12@gmail.com",
+      "homepage": "https://45.32.184.209",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "classmap": ["/src"],
+    "exclude-from-classmap": [
+      "/tests"
+    ]
+  }
+}
